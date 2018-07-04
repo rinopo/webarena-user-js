@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         WebArena - Recommend quota values
 // @namespace    https://github.com/rinopo/webarena-user-js
-// @version      0.0.0
+// @version      0.0.1
 // @description  Recommend quota values.
 // @author       rinopo
-// @match        https://manager.mail.arena.ne.jp/Site_Manager/*
+// @match        https://manager.mail.arena.ne.jp/*/Site_Manager/*
 // @grant        none
 // @require      https://code.jquery.com/jquery-3.1.1.min.js
 // @icon         http://web.arena.ne.jp/favicon.ico
