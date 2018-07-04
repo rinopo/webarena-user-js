@@ -10,7 +10,7 @@ WebARENA のメールサービスの管理画面用の [Tampermonkey](https://ch
 
 Tampermonkey 機能拡張導入済みの Chrome で、下記リンクをクリック。
 
-[⏬インストール](https://github.com/setenvnet/webarena-user-js/raw/master/js/recommend-quota-values.user)
+[⏬インストール](https://github.com/rinopo/webarena-user-js/raw/master/js/recommend-quota-values.user.js)
 
 
 ### 概要
@@ -25,7 +25,7 @@ Tampermonkey 機能拡張導入済みの Chrome で、下記リンクをクリ�
 
 Tampermonkey 機能拡張導入済みの Chrome で、下記リンクをクリック。
 
-[⏬インストール](https://github.com/setenvnet/webarena-user-js/raw/master/js/show-quota-percentage.user.js)
+[⏬インストール](https://github.com/rinopo/webarena-user-js/raw/master/js/show-quota-percentage.user.js)
 
 
 ### 概要
