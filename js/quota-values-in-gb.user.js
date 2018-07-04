@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         WebArena - Recommend quota values
+// @name         WebArena - Quota values in GB
 // @namespace    https://github.com/rinopo/webarena-user-js
-// @version      0.0.1
-// @description  Recommend quota values.
+// @version      1.0.0
+// @description  Default quota value to GB instead of MB.
 // @author       rinopo
 // @match        https://manager.mail.arena.ne.jp/*/Site_Manager/*
 // @grant        none
@@ -12,9 +12,13 @@
 
 $.noConflict();
 jQuery( document ).ready(function( $ ) {
-  'use strict';
+    'use strict';
 
-  // 容量設定フォームに、推奨値をフィボナッチ数列で表示。
-  $('input[name=QUOTA] + br').after('推奨値：1024, 2048, 3072, 5120, 8192, 13312, 21504<br>');
+    // GBをデフォルトにする。
+    $('input[value=GB]').click();
 
+    // 値を GB に変換する。
+    const quota_mb = $('input[name=QUOTA]').val();
+    const quota_gb = quota_mb / 1024;
+    $('input[name=QUOTA]').val(quota_gb);
 });

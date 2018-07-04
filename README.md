@@ -4,18 +4,18 @@ WebARENA のメールサービスの管理画面用の [Tampermonkey](https://ch
 
 
 
-## recommend-quota-values
+## quota-values-in-gb
 
 ### インストール
 
 Tampermonkey 機能拡張導入済みの Chrome で、下記リンクをクリック。
 
-[⏬インストール](https://github.com/rinopo/webarena-user-js/raw/master/js/recommend-quota-values.user.js)
+[⏬インストール](https://github.com/rinopo/webarena-user-js/raw/master/js/quota-values-in-gb.user.js)
 
 
 ### 概要
 
-メールボックスの容量を設定するフォーム内に、推奨する設定値を表示する。
+メールボックスの容量を設定するフォームで、MB ではなく GB をデフォルトの単位にする。
 
 
 
